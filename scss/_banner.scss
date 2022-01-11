@@ -1,0 +1,85 @@
+@import 'variable';
+@import 'mixin';
+
+/* ===========   banner starts   ============== */ 
+#banner{
+    .banner-slider{
+        position: relative;
+        .left-arrow{
+            width: 80px;
+            line-height: 80px;
+            background: #000;
+            color: $d-gray;
+            text-align: center;
+            font-size: 25px;
+            position: absolute;
+            bottom: 0;
+            right: 482px;
+            z-index: 999;
+            @include trans2(0.3s);
+            
+            &:hover{
+                background: $vd-gray;
+            }
+            
+        }
+        .right-arrow{
+            width: 80px;
+            line-height: 80px;
+            background: #000;
+            color: $d-gray;
+            text-align: center;
+            font-size: 25px;
+            position: absolute;
+            bottom: 0;
+            right: 402px;
+            z-index: 999;
+            @include trans2(0.3s);
+
+            &:hover{
+                background: $vd-gray;
+            }
+            
+        }
+
+
+        .banner-item{
+            
+            .banner-text{
+                padding-top: 115px;
+                padding-left: 60px;
+                h1{
+                    font-family: $spartan;
+                    font-weight: 600;
+                    font-size: 40px;
+                    color: #000;
+                }
+                p{
+                    font-size: 15px;
+                    color: $d-gray;
+                    padding-right: 60px;
+                    padding-top: 15px;
+                    padding-bottom: 25px;
+                }
+                a{
+                    color: $d-gray;
+                    font-family: $spartan;
+                    font-weight: 500;
+                    letter-spacing: 5px;
+                    @include trans1(0.3s);
+                    
+                    &:hover{
+                        letter-spacing: 8px;
+                        
+                    }
+                    i{
+                        font-size: 20px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+/* ===========   banner   ends   ============== */ 
