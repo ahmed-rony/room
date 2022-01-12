@@ -19,19 +19,21 @@
     nav .menu-bar .show1{
         opacity: 1 !important;
         visibility: visible !important;
-        margin-left: -138px !important;
+        left: -138px !important;
         transition: all ease-in-out 0.4s;
         -webkit-transition: all ease-in-out 0.4s;
         -moz-transition: all ease-in-out 0.4s;
         -ms-transition: all ease-in-out 0.4s;
         -o-transition: all ease-in-out 0.4s;
-}
+    }
 
 
     nav .menu-bar .menu-list{
         opacity: 0;
         visibility: hidden;
-        margin-left: -165px;
+        position: absolute;
+        left: -150px;
+        margin-left: inherit !important;
         background: #fff;
         margin-top: -9px !important;
         border-radius: 3px;
@@ -39,7 +41,7 @@
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;
         -o-border-radius: 3px;
-}
+    }
     nav .menu-bar .menu-list li:first-of-type{
         padding-left: 10px;
     }
@@ -71,6 +73,7 @@
     }
     #banner .banner-slider .banner-item .banner-text h1{
         font-size: 25px;
+        padding-right: 10px;
     }
     #banner .banner-slider .right-arrow{
         width: 40px;
@@ -151,18 +154,21 @@
     nav .menu-bar .show1{
         opacity: 1 !important;
         visibility: visible !important;
-        margin-left: -265px !important;
+        left: -270px !important;
         transition: all ease-in-out 0.4s;
         -webkit-transition: all ease-in-out 0.4s;
         -moz-transition: all ease-in-out 0.4s;
         -ms-transition: all ease-in-out 0.4s;
         -o-transition: all ease-in-out 0.4s;
-}
+    }
 
 
     nav .menu-bar .menu-list{
         opacity: 0;
         visibility: hidden;
+        position: absolute;
+        left: -295px;
+        margin-left: inherit !important;
         background: #fff;
         margin-top: -9px !important;
         border-radius: 3px;
@@ -170,7 +176,7 @@
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;
         -o-border-radius: 3px;
-}
+    }
     nav .menu-bar .menu-list li:first-of-type{
         padding-left: 10px;
     }
@@ -200,7 +206,7 @@
         padding-left: 30px;
     }
     #banner .banner-slider .banner-item .banner-text h1{
-        padding-right: 25px;
+        padding-right: 45px;
         font-size: 36px;
     }
     #banner .banner-slider .right-arrow{
@@ -265,6 +271,9 @@
     #banner .banner-slider .banner-item .banner-text{
         padding-top: 40px;
         padding-left: 30px;
+    }
+    #banner .banner-slider .banner-item .banner-text .head-1{
+        padding-right: 55px;
     }
     #banner .banner-slider .banner-item .banner-text h1{
         padding-right: 25px;
