@@ -8,8 +8,12 @@ $(document).ready(function(){
 
     // slick js   ===============;
     $('.banner-slider').slick({
-        // autoplay: true,
+        autoplay: true,
         prevArrow: '<i class="fas fa-chevron-left slick-prev left-arrow"></i>',
         nextArrow: '<i class="fas fa-chevron-right slick-next right-arrow"></i>',
     });
+
+    // aos js   ============;
+
+    AOS.init();
 })
